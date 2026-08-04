@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MapExample",
+      "request": "launch",
+      "mainClass": "collections.map.MapExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "SetExample",
+      "request": "launch",
+      "mainClass": "collections.set.SetExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "Run collections.listinterface.Main",
+      "request": "launch",
+      "mainClass": "collections.listinterface.Main"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+SOLID: it is principle ... sometimes it is broken also example factory design pattern.
+
