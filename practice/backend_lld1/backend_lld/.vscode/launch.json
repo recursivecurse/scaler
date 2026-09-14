@@ -3,6 +3,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Example",
+      "request": "launch",
+      "mainClass": "multithreading.Example",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "BankAccount",
+      "request": "launch",
+      "mainClass": "exceptions.BankAccount",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "Example",
+      "request": "launch",
+      "mainClass": "exceptions.Example",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "OptionalExample",
+      "request": "launch",
+      "mainClass": "streams.optional.OptionalExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "IntermediaryExample",
+      "request": "launch",
+      "mainClass": "streams.IntermediaryExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "StreamExample",
+      "request": "launch",
+      "mainClass": "streams.StreamExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "Example",
+      "request": "launch",
+      "mainClass": "lamdas.functionalinterface.customfunctionalinterface.Example",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "Example",
+      "request": "launch",
+      "mainClass": "lamdas.functionalinterface.Example",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "LamdaExample",
+      "request": "launch",
+      "mainClass": "lamdas.LamdaExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "PriorityQueueExample",
+      "request": "launch",
+      "mainClass": "collections.queue.PriorityQueueExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
+      "name": "QueueStackExample",
+      "request": "launch",
+      "mainClass": "collections.queue.QueueStackExample",
+      "projectName": "backend_lld_41c984f0"
+    },
+    {
+      "type": "java",
       "name": "MapExample",
       "request": "launch",
       "mainClass": "collections.map.MapExample",
