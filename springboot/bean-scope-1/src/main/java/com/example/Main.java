@@ -9,6 +9,8 @@ public class Main {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         A a = context.getBean(A.class);
+
+        SingletonExample s = (SingletonExample)context.getBean("singletonExample");
         
     }
 }
