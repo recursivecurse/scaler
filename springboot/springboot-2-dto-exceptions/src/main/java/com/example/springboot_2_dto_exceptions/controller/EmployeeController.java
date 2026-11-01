@@ -16,6 +16,8 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -34,7 +36,7 @@ public class EmployeeController {
 
 
     @PostMapping
-    public ResponseEntity<EmployeeResponseDto> createEmployee(@RequestBody EmployeeRequestDto employee) {
+    public ResponseEntity<EmployeeResponseDto> createEmployee(@Valid @RequestBody EmployeeRequestDto employee) {
         
         EmployeeResponseDto employeeResponseDto = employeeService.createEmployee(employee);
         return ResponseEntity.status(HttpStatus.CREATED).body(employeeResponseDto);

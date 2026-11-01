@@ -1,10 +1,20 @@
 package com.example.springboot_2_dto_exceptions.dto.requestdto;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
 public class EmployeeRequestDto {
 
+    @NotNull(message = "id is required")
     private Long id;
+
+    @NotBlank(message = "name is required")
     private String name;
+
+    @NotBlank(message = "employeeId is required")
     private String employeeId;
+
+    @NotBlank(message = "department is required")
     private String department;
 
     public EmployeeRequestDto(){}
